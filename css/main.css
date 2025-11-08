@@ -20,3 +20,18 @@ body {
     font-family:Arial, sans-serif;
 }
 
+header #header-top {
+    height: 100px;
+    background-color: rgb(48, 47, 47);
+    mix-blend-mode: color-burn;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header #jumbotron {
+    margin-top: 100px;
+    height: calc( 100vh - 100px);
+    background-color: rgb(201, 234, 234);
+}
